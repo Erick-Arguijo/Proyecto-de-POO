@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+    <script src="https://kit.fontawesome.com/ed1d559547.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container-fluid">
+    <div class="row">
+        <div id="lateral" class="col-xl-2 col-lg-2">
+            <div id="imagen">
+                <img src="../img/deezer2.png" alt="">
+            </div>
+            <div id="suscribete" class="col-xl-12">
+                <p>Disfruta de 3 meses de Premium por tan solo $5.99</p>
+                <div class="boton"><button id="boton1" type="button">Suscribete</button></div>
+            </div>
+            <!--barra lateral-->
+          <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="souce nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><span class="iconolateral"><i class="fas fa-music"></i></span> Musica</a>
+            <a class="souce nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"><span class="iconolateral"><i class="fas fa-microphone-alt"></i></span> Shows</a>
+            <a class="souce nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false"><span class="iconolateral"><i class="fab fa-windows"></i></span> Explorar</a>
+            <a class="souce nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"><span class="iconolateral"><i class="fas fa-heart"></i></span> Favoritos</a>
+            
+            <a class="source last nav-link" id="v-pills-misfavoritas-tab" data-toggle="pill" href="#v-pills-misfavoritas" role="tab" aria-controls="v-pills-misfavoritas" aria-selected="false">Mis favoritas</a>
+            <a class="source last nav-link" id="v-pills-playlist-tab" data-toggle="pill" href="#v-pills-playlist" role="tab" aria-controls="v-pills-playlist" aria-selected="false">Playlist</a>
+            <a class="source last nav-link" id="v-pills-albumes-tab" data-toggle="pill" href="#v-pills-albumes" role="tab" aria-controls="v-pills-albumes" aria-selected="false">Albumes</a>
+            <a class="source last nav-link" id="v-pills-artistas-tab" data-toggle="pill" href="#v-pills-artistas" role="tab" aria-controls="v-pills-artistas" aria-selected="false">Artistas</a>
+            <a class="source last nav-link" id="v-pills-podcast-tab" data-toggle="pill" href="#v-pills-podcast" role="tab" aria-controls="v-pills-podcast" aria-selected="false">Podcasts</a>
+        </div>
+        <!--Fin barra lateral-->
+        </div>
+
+        <!--Segunda parte-->
+        <div class="col-xl-10 col-lg-10">
+           <div id="buscar"><input type="search" name="" id="busc" placeholder="Buscar"> <span id="iconos"><span id="icono1"><i class="fas fa-bell"></i></span> <i class="fas fa-user"></i> </span></div>
+          <div class="tab-content" id="v-pills-tabContent">
+            
+            <!--MUSICA-->
+            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+              <div class="contenedortitulo" ><h4>Playlists recomendadas</h4></div>
+              <div id="contenedorbody" class="contenedorcuerpo row">
+
+              </div>
+
+              <div class="contenedortitulo" ><h4>Música por género</h4></div>
+              <div id="cuerpomusicagenero" class="contenedorcuerpo row">
+
+              </div>
+
+            </div>
+            <!--SHOWS-->
+            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">Hola mundo 2</div>
+            
+            <!--Explorar-->
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+              <div><h2>Todos los canales</h2></div>
+              
+              <div><h4 class="h4">Destacadas</h4></div>
+                <div id="musicadestacada" class="contenedormusica row">
+                  <!--<div class="comun col-xl-3 col-lg-3"><div style="background-image: url(../playlist/fondo1.jpg); height: 92px;" ><p class="estandar">POP</p></div></div>-->
+                </div>  
+              
+              <div><h4 class="h4">Musica</h4></div>
+                <div id="musicagenero" class="contenedormusica row">
+                  <!--<div class="comun col-xl-3 col-lg-3"><div style="background-image: url(../playlist/fondo1.jpg); height: 92px;" ><p class="estandar">POP</p></div></div>-->
+                </div>    
+
+                <div><h4 class="h4">Momentos</h4></div>
+                <div id="musicamomentos" class="contenedormusica row">
+                  <!--<div class="comun col-xl-3 col-lg-3"><div style="background-image: url(../playlist/fondo1.jpg); height: 92px;" ><p class="estandar">POP</p></div></div>-->
+                </div>   
+            </div>
+
+            <!--Favoritos-->
+            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <div id="contenedortitulo">
+                <div><h2>Favoritos</h2></div>
+                <div><h4>Artistas <span><i class="fas fa-angle-right"></i></span></h4></div>
+              </div>
+              <div id="contenedorartista" class="row" >
+               
+              </div>
+
+              <!--verartistas favoritos-->
+              <div id="verartista" class="container-fluid" style="display: none;">
+        
+                <!--<div id="contendorverimagenartista" class="row">
+                  <div class="col-xl-3"><img id="imagenverartista" src="../Artistas/img/drake.jpg" alt=""></div>
+                  
+                  <div class="col-xl-9">
+                    <ul id="ulartista">
+                      <li><h4>Drake</h4></li>
+                      <li>25535195 fans</li>
+                      <li><button>mix</button></li>
+                    </ul>
+                  </div>-->
+                  
+                
+              </div>
+
+              <div id="vercanciones" style="display: none;" class="row col-xl-8 col-lg-11">
+                 
+                    <div id="contenerorUlMusica"></div>
+                      <!--<ul id="ulmusica">
+                        <li>1</li>
+                        <li class="liprincipal"><button><i class="fas fa-play"></i></button></li>
+                        <li class="liprincipal">Toosie Slide</li>
+                        <li class="lisecundario"><button><i class="fas fa-plus"></i></button></i></li>
+                      </ul>-->
+
+                    
+
+                   
+                  
+                </div>
+
+                <!--<div id="albumes" style="display: none; margin-top: 60px;"><h4>Albumes</h4></div>-->
+                <div id="contenedorbod" style="display: none;" class="contenedorcuerpo row">
+                  <!--<div id="etiqueta" class="col-xl-3 col-lg-3">
+                    <div id="contenedoriconoalbum" class="">
+                      <button id="iconoplay" class=" botonicoalbum botonicono"><i class="fas fa-play"></i></button>
+                      <button id="iconoheart" class="botonicoalbum botonicono"><i class="fas fa-heart"></i></button>
+                      <button id="iconoinf" class="  botonicoalbum botonicono"><i class="fas fa-info-circle"></i></button>
+                    </div>
+                    <img id="imgalbums" src="../Artistas/img/drake.jpg" alt="">
+                    <p>Dark Lane Demo Tapes</p>
+                    <p>de drake</p>
+                  </div>-->                 
+
+                </div>
+
+                <div id="caratula" class="row">
+                  <!--<div class="col-xl-3 col-lg-3"><img src="../Artistas/img/drake.jpg" alt=""></div>
+                  <div class="col-xl-9 col-lg-9">Dark Lane Demo Tapes</div>-->
+                </div>
+
+               <div id="contenerorUlMusicaAlbum">
+                      <!--<ul id="ulmusica" class="ulmusica" >
+                      <li>#</li>
+                        <li class="liprincipal"><button><i class="fas fa-play"></i></button></li>
+                        <li class="liprincipal"><button><i class="far fa-heart"></i></button></li>
+                        <li class="liprincipal">Cancion</li>
+                        <li class="lialbum lisecundario">D.</li>
+                        <li class="lialbum lisecundario"><button><i class="fas fa-plus"></i></button></i></li>
+                        
+                      </ul>-->
+                </div>
+            </div>
+
+
+            <div class="tab-pane fade" id="v-pills-misfavoritas" role="tabpanel" aria-labelledby="v-pills-misfavoritas-tab">Hola mundo 5</div>
+
+            <div class="tab-pane fade" id="v-pills-playlist" role="tabpanel" aria-labelledby="v-pills-playlist-tab">Hola mundo 6</div>
+
+            <!--Albumes-->
+            <div class="tab-pane fade" id="v-pills-albumes" role="tabpanel" aria-labelledby="v-pills-albumes-tab">
+              <!--<div class="row">
+                <div id="contenedorartista" class="col-xl-3 col-lg-3">
+                  <div id="contenedoricono"><span id="contendorspan">
+                    <i id="etiqueta" class="fas fa-angle-right"></i></span>
+                  </div>
+                  <img id="imagenartista" src="../Artistas/img/drake.jpg" alt="">
+                   
+                  
+
+                </div>
+
+                <div id="contenedorartista" class="col-xl-3 col-lg-3">
+                  <div id="contenedoricono">
+                    <button id="iconoplay" class="botonicono"><i class="fas fa-play"></i></button>
+                    <button id="iconoheart" class="botonicono"><i class="fas fa-heart"></i></button>
+                  </div>
+                  <img id="imagenartista" src="../Artistas/img/drake.jpg" alt="">
+                </div>
+                
+
+                </div>
+                
+              </div>-->
+            </div>
+
+            <!--Artistas-->
+            <div class="tab-pane fade" id="v-pills-artistas" role="tabpanel" aria-labelledby="v-pills-artistas-tab">
+              <div id= "misartistas" class="row">
+                <!--<div class="col-xl-12">4 Artistas</div>
+                <div><img src="../Artistas/img/badbunny.jpg" alt=""></div>-->
+              </div>
+
+              <div class="row">
+                <div id="contenedorAgregarArtista" class="col-xl-12">
+                  <div class="col-xl-12 col-lg-12"><h7>Sigue a uno de estos artistas.</h7></div>
+                  <div class="col-xl-12 col-lg-12"><p>Aquí algunas sugerencias basadas en tus escuchas y nuestras recomendaciones:</p></div>
+                  <div id="generarNuevosArtistas" class="row">
+                    <!--<img src="../Artistas/img/badbunny.jpg" alt="">
+                    <h6>nombre</h6>-->
+                </div>
+                </div>
+              </div>
+            </div>
+
+
+            
+
+            <div class="tab-pane fade" id="v-pills-podcast" role="tabpanel" aria-labelledby="v-pills-podcast-tab">Hola mundo 9</div>
+
+          </div>
+        </div>
+      </div>
+    </div>  
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="controlador.js"></script>
+</body>
+</html>

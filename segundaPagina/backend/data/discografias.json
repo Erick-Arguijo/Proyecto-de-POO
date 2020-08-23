@@ -1,0 +1,196 @@
+[
+    {
+        "nombre":"Drake",
+        "album":"Take Care",
+        "imagen":"../../frontend/img/albums/drake/takeCare.jpg",
+        "año":2011,
+        "canciones":[]
+    },
+    {
+        "nombre":"Drake",
+        "album":"Views",
+        "imagen":"../../frontend/img/albums/drake/Views.jpg",
+        "año":2016,
+        "canciones":[]
+    },
+    {
+        "nombre":"Drake",
+        "album":"More Life",
+        "imagen":"../../frontend/img/albums/drake/morelife.jpg",
+        "año":2017,
+        "canciones":[]
+    },
+    {
+        "nombre":"Drake",
+        "album":"Scorpion",
+        "imagen":"../../frontend/img/albums/drake/Scorpion.jpg",
+        "año":2018,
+        "canciones":[]
+    },
+    {
+        "nombre":"Drake",
+        "album":"Dark Lane Demo Tapes",
+        "imagen":"../../frontend/img/albums/drake/lane.png",
+        "año":2020,
+        "canciones":[]
+    },
+
+    {
+        "nombre":"The Weeknd",
+        "album":"After Hours",
+        "imagen":"../../frontend/img/albums/theweeknd/afterhours.png",
+        "año":2020,
+        "canciones":[]
+    },
+    {
+        "nombre":"The Weeknd",
+        "album":"My Dear Melancholy",
+        "imagen":"../../frontend/img/albums/theweeknd/mydearmelancholy.jpg",
+        "año":2018,
+        "canciones":[]
+    },
+    {
+        "nombre":"The Weeknd",
+        "album":"Starboy",
+        "imagen":"../../frontend/img/albums/theweeknd/starboy.png",
+        "año":2016,
+        "canciones":[]
+    },
+    {
+        "nombre":"Ricardo Arjona",
+        "album":"Blanco",
+        "imagen":"../../frontend/img/albums/arjona/blanco.jpg",
+        "año":2017,
+        "canciones":[]
+    },
+    {
+        "nombre":"Ricardo Arjona",
+        "album":"Quien Dijo Ayer",
+        "imagen":"../../frontend/img/albums/arjona/quiendijo.jpg",
+        "año":2020,
+        "canciones":[]
+    },
+    {
+        "nombre":"Banda MS",
+        "album":"La Mejor Version De Mi",
+        "imagen":"../../frontend/img/albums/bandams/lamejorversiondemi.jpg",
+        "año":2017,
+        "canciones":[]
+    },
+    {
+        "nombre":"Banda MS",
+        "album":"Altamente Probable",
+        "imagen":"../../frontend/img/albums/bandams/altamenteprobable.jpg",
+        "año":2020,
+        "canciones":[]
+    },
+    {
+        "nombre":"Daddy Yankee",
+        "album":"Si Supieras",
+        "imagen":"../../frontend/img/albums/daddy/sisupieras.jpg",
+        "año":2019,
+        "canciones":[]
+    },
+    {
+        "nombre":"Daddy Yankee",
+        "album":"Prestige",
+        "imagen":"../../frontend/img/albums/daddy/prestige.jpg",
+        "año":2012,
+        "canciones":[]
+    },
+    {
+        "nombre":"Myke Towers",
+        "album":"Easy Money Baby",
+        "imagen":"../../frontend/img/albums/myke/easymoney.jpg",
+        "año":2020,
+        "canciones":[]
+    },
+    {
+        "nombre":"Rita Ora",
+        "album":"Phoenix",
+        "imagen":"../../frontend/img/albums/rita/phoenix.png",
+        "año":2018,
+        "canciones":[]
+    },
+    {
+        "nombre":"Daddy Yankee",
+        "album":"Muevelo",
+        "imagen":"../../frontend/img/albums/daddy/muevelo.jpg",
+        "año":2020,
+        "canciones":[]
+    },
+    {
+        "nombre":"Arcangel",
+        "album":"Sigues Con El",
+        "imagen":"../../frontend/img/albums/arcangel/siguesconel.jpg",
+        "año":2019,
+        "canciones":[]
+    },
+    {
+        "nombre":"Anuel AA",
+        "album":"Ella Quiere Beber",
+        "imagen":"../../frontend/img/albums/anuel/ellaquierebeber.jpg",
+        "año":2018,
+        "canciones":[]
+    },
+    {
+        "nombre":"Sech",
+        "album":"Sueños",
+        "imagen":"../../frontend/img/albums/sech/sueños.jpg",
+        "año":2019,
+        "canciones":[]
+    },
+    {
+        "nombre":"Romeo Santos",
+        "album":"Formula, Vol.2",
+        "imagen":"../../frontend/img/albums/romeo/formula.jpg",
+        "año":2014,
+        "canciones":[]
+    },
+    {
+        "nombre":"Aventura",
+        "album":"The Last",
+        "imagen":"../../frontend/img/albums/romeo/thelast.jpg",
+        "año":2009,
+        "canciones":[]
+    },
+    {
+        "nombre":"Aventura",
+        "album":" Utopía",
+        "imagen":"../../frontend/img/albums/romeo/utopia.jpg",
+        "año":2019,
+        "canciones":[]
+    },
+    {
+        "nombre":"Justin Bieber",
+        "album":"Changes",
+        "imagen":"../../frontend/img/albums/justin/changes.jpg",
+        "año":2020,
+        "canciones":[]
+    },
+    {
+        "nombre":"Justin Bieber",
+        "album":"Purpose",
+        "imagen":"../../frontend/img/albums/justin/purpose.jpg",
+        "año":2015,
+        "canciones":[]
+    },
+    {
+        "nombre":"Selena Gomez",
+        "album":"Rare",
+        "imagen":"../../frontend/img/albums/selena/rare.jpg",
+        "año":2020,
+        "canciones":[]
+    },
+    {
+        "nombre":"Selena Gomez",
+        "album":"Wolves",
+        "imagen":"../../frontend/img/albums/selena/wolves.jpg",
+        "año":2017,
+        "canciones":[]
+    }
+
+
+
+
+]

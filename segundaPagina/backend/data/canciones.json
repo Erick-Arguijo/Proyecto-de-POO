@@ -1,0 +1,267 @@
+[
+    {
+        "cancion":1,
+        "nombre":"Nonstop",
+        "artista":"Drake",
+        "album":"Scorpion",
+        "genero":["hip-hop/rap" , "trap"],
+        "duracion":"02:56",
+        "url":"../../frontend/musica/Drake - Nonstop.mp3"
+    },
+    {
+        "cancion":2,
+        "nombre":"Toosie Slide",
+        "artista":"Drake",
+        "album":"Dark Lane Demo Tapes",
+        "genero":["Hip-hop/rap"],
+        "duracion":"04:08",
+        "url":"../../frontend/musica/Drake - Toosie Slide.mp3"
+    },
+    {
+        "cancion":3,
+        "nombre":"Portland",
+        "artista":"Drake",
+        "album":"More Life",
+        "genero":[],
+        "duracion":"",
+        "url":""
+    },
+    {
+        "cancion":4,
+        "nombre":"One Dance",
+        "artista":"Drake",
+        "album":"Views",
+        "genero":["Afrobeat", "Hip-hop/rap"],
+        "duracion":"04:03",
+        "url":"../../frontend/musica/Drake - One Dance.mp3"
+    },
+    {
+        "cancion":5,
+        "nombre":"Take Care",
+        "artista":"Drake",
+        "album":"Take Care",
+        "genero":["Hip-hop/rap"],
+        "duracion":"04:08",
+        "url":"../../frontend/musica/Drake - Take Care ft. Rihanna.mp3"
+    },
+
+    {
+        "cancion":5,
+        "nombre":"Blinding Lights",
+        "artista":"The Weeknd",
+        "album":"After Hours",
+        "genero":["Synthwave", "R&B/soul"],
+        "duracion":"03:23",
+        "url":"../../frontend/musica/The Weeknd - Blinding Lights.mp3"
+    },
+    {
+        "cancion":6,
+        "nombre":"Call Out My Name",
+        "artista":"The Weeknd",
+        "album":"My Dear Melancholy",
+        "genero":["R&B contemporáneo", "R&B/soul"],
+        "duracion":"03:48",
+        "url":"../../frontend/musica/The Weeknd - Call Out My Name.mp3"
+    },
+    {
+        "cancion":7,
+        "nombre":"Starboy",
+        "artista":"The Weeknd",
+        "album":"Starboy",
+        "genero":["Electro-funk"],
+        "duracion":"03:51",
+        "url":"../../frontend/musica/Starboy.mp3"
+    },
+    {
+        "cancion":8,
+        "nombre":"In you Eyes",
+        "artista":"The Weeknd",
+        "album":"After Hours",
+        "genero":["R&B/soul"],
+        "duracion":"03:58",
+        "url":"../../frontend/musica/The Weeknd - In Your Eyes.mp3"
+    },
+    {
+        "cancion":9,
+        "nombre":"Hongos",
+        "artista":"Ricardo Arjona",
+        "album":"Blanco",
+        "genero":[ "Pop"],
+        "duracion":"04:17",
+        "url":"../../frontend/musica/Hongos - Ricardo Arjona.mp3"
+    },
+    {
+        "cancion":10,
+        "nombre":"El retrato",
+        "artista":"Ricardo Arjona",
+        "album":"Blanco",
+        "duracion":"03:43",
+        "genero":[" Pop"],
+        "url":"../../frontend/musica/Ricardo Arjona - Tu Retrato.mp3"
+    },
+    {
+        "cancion":11,
+        "nombre":"Mujeres",
+        "artista":"Ricardo Arjona",
+        "album":"Quien Dijo Ayer",
+        "duracion":"03:21",
+        "genero":["Pop"],
+        "url":"../../frontend/musica/Ricardo Arjona - Mujeres .mp3"
+    },
+    {
+        "cancion":13,
+        "nombre":"El Color De Tus Ojos",
+        "artista":"Banda MS",
+        "album":"La Mejor Version De Mi",
+        "genero":["Regional mexicana"],
+        "duracion":"03:22",
+        "url":"../../frontend/musica/BANDA MS - EL COLOR DE TUS OJOS.mp3"
+    },
+    {
+        "cancion":14,
+        "nombre":"Altamente Probable",
+        "artista":"Banda MS",
+        "album":"Altamente Probable",
+        "genero":["Regional mexicana"],
+        "duracion":"03:00",
+        "url":"../../frontend/musica/BANDA MS - ALTAMENTE PROBABLE.mp3"
+    },
+    {
+        "cancion":15,
+        "nombre":"Si Supieras",
+        "artista":"Daddy Yankee",
+        "album":"Si Supieras",
+        "genero":["Reguetón", "Pop"],
+        "duracion":"04:00",
+        "url":"../../frontend/musica/Daddy Yankee - Si Supieras ft. Wisin & Yandel.mp3"
+    },
+    {
+        "cancion":16,
+        "nombre":"Ven Conmigo",
+        "artista":"Daddy Yankee",
+        "album":"Prestige",
+        "genero":["R&B contemporáneo","Pop"],
+        "duracion":"",
+        "url":"../../frontend/musica/Ven Conmigo - Daddy Yankee Ft. Prince Royce.mp3"
+    },
+    {
+        "cancion":17,
+        "nombre":"Diosa",
+        "artista":"Mike Towers",
+        "album":"Easy Money Baby",
+        "genero":["Reguetón"],
+        "duracion":"03:34",
+        "url":"../../frontend/musica/Myke Towers - Diosa.mp3"
+    },
+    {
+        "cancion":18,
+        "nombre":"For You",
+        "artista":"Rita Ora",
+        "album":"Phoenix",
+        "genero":["Synth","popelectropop"],
+        "duracion":"04:08",
+        "url":"../../frontend/musica/Liam Payne, Rita Ora - For You.mp3"
+    },
+    {
+        "cancion":19,
+        "nombre":"Muevelo",
+        "artista":"Daddy Yankee",
+        "album":"Muevelo",
+        "genero":["Pop", "Hip-hop/rap"],
+        "duracion":"03:45",
+        "url":"../../frontend/musica/Daddy Yankee, Nicky Jam - Muevelo.mp3"
+    },
+    {
+        "cancion":20,
+        "nombre":"Sigues Con El",
+        "artista":"Arcangel",
+        "album":"Sigues Con El",
+        "genero":["Reguetón"],
+        "duracion":"03:52",
+        "url":"../../frontend/musica/Arcangel x Sech - Sigues Con Él .mp3"
+    },
+    {
+        "cancion":21,
+        "nombre":"Ella Quiere Beber",
+        "artista":"Anuel Aa",
+        "album":"Ella Quiere Beber",
+        "genero":["Reguetón"],
+        "duracion":"03:44",
+        "url":"../../frontend/musica/Anuel AA - Ella Quiere Beber ft. Romeo Santos .mp3"
+    },
+    {
+        "cancion":22,
+        "nombre":"Otro Trago",
+        "artista":"Sech",
+        "album":"Sueños",
+        "genero":["Reguetón"],
+        "duracion":"03:50",
+        "url":"../../frontend/musica/Sech - Otro Trago ft. Darell.mp3"
+    },
+    {
+        "cancion":23,
+        "nombre":"Propuesta Indecente",
+        "artista":"Romeo Santos",
+        "album":"Formula, Vol.2",
+        "genero":["Bachata", "Salsa y música tropical", "Pop"],
+        "duracion":"03:53",
+        "url":"../../frontend/musica/Romeo Santos - Propuesta Indecente.mp3"
+    },
+    {
+        "cancion":24,
+        "nombre":"Dile al Amor",
+        "artista":"Aventura",
+        "album":"The Last",
+        "genero":[ "Bachata", "Salsa y música tropical"],
+        "duracion":"03:55",
+        "url":"../../frontend/musica/Aventura- Dile Al Amor.mp3"
+    },
+    {
+        "cancion":25,
+        "nombre":"Inmortal",
+        "artista":"Aventura",
+        "album":"Utopía",
+        "genero":["Bachata", "Salsa y música tropical"],
+        "duracion":"04:35",
+        "url":"../../frontend/musica/Aventura - Inmortal .mp3"
+    },
+    {
+        "cancion":26,
+        "nombre":"Yummy",
+        "artista":"Justin Bieber",
+        "album":"Changes",
+        "genero":["Pop"],
+        "duracion":"03:23",
+        "url":"../../frontend/musica/Justin Bieber - Yummy.mp3"
+    },
+    {
+        "cancion":27,
+        "nombre":"Sorry",
+        "artista":"Justin Bieber",
+        "album":"Purpose",
+        "genero":[ "R&B contemporáneo", "Pop"],
+        "duracion":"03:18",
+        "url":"../../frontend/musica/Justin Bieber - Sorry.mp3"
+    },
+    {
+        "cancion":28,
+        "nombre":"Lose You To Love Me",
+        "artista":"Selena Gomez",
+        "genero":[" Pop"],
+        "album":"Rare",
+        "duracion":"03:27",
+        "url":"../../frontend/musica/Selena Gomez - Lose You To Love Me.mp3"
+    },
+    {
+        "cancion":29,
+        "nombre":"Wolves",
+        "artista":"Selena Gomez",
+        "album":"Wolves",
+        "genero":["Dance", "Electrónica"],
+        "duracion":"03:32",
+        "url":"../../frontend/musica/Selena Gomez, Marshmello - Wolves.mp3"
+    }
+
+
+
+]

@@ -1,0 +1,265 @@
+#principal{
+    height: 82px;
+    border-bottom: 3px solid gainsboro;
+    padding-bottom: 11px;
+    background-color: white !important;
+}
+#iniciarsesion{
+    display: none;
+}
+.oculto{
+    display: none;
+}
+
+
+#cajalogo{
+    width: auto;
+}
+#icono{
+    width: 30px;
+    height: 30px;
+    border: 0;
+    padding: 0;
+    font-size: 30px;
+}
+ul{
+  text-align: center;
+  margin-left: auto;  
+}
+
+#imagen{
+    margin-left: 25px;
+
+} 
+button{
+    outline:none !important;
+}
+
+
+#primerli{
+    margin-right: 35px;
+}
+#formnavegacion{
+    margin-right: 40px;
+}
+
+#enlacesnavegacion{
+
+}
+
+.botonnavegacion{
+    width: 135px;
+    border-radius: 20px;
+   
+    
+
+    font-size: 16px;
+    font-family: Roboto,sans-serif;
+    font-weight: 700;
+    height: 40px;
+    
+}
+.botonnavegacion :focus{
+    outline: none !important ;
+
+}
+
+#primerboton{
+    margin-right: 15px;
+    width: 143px;
+    background-color: white;
+    color: #2d96c8;
+    border: 2px solid #2d96c8;
+    box-shadow: none;
+}
+#primerboton :hover{
+    color:  #03608A;
+    border: 2px solid  #03608A;
+}
+
+#segundoboton{
+    background-color: #2d96c8;
+    border:  #2d96c8;
+    color: white;
+    box-shadow: none;
+}
+
+#segundoboton :hover{
+    background-color:  #03608A !important;
+    border:  #03608A !important;
+}
+
+
+#ulnavegacion{
+margin-right: 35px !important;
+}
+#ulnavegacion li a:hover{
+    border-bottom: 3px solid ;
+}
+
+
+#ulnavegacion li a{
+    color: #32323d;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+/*////////////////////Cuerpo//////////////////////////////////////////////////////////////////////////////////////////*/
+
+#img{
+    background-image: url(img/signup.jpg);
+    height: 135vh;
+
+}
+
+#cuerpo{
+    background-color: blue;
+    margin: auto;
+}
+
+#cuerpo h2{
+    text-align: center;
+    margin-top: 85px;
+}
+
+#divbotones{
+    padding-top: 30px;
+    margin: auto;
+    text-align: center;
+}
+.boton{
+    height: 40px;
+    border-radius: 5px;
+    
+}
+
+.boton span{
+    margin-right: 20px;
+}
+#boton1{
+    background-color: #2553B4;
+    color: white;
+    border: 2px solid #2553B4;
+}
+#boton2{
+    margin-left: 10px;
+    background-color: white;
+    color: gray;
+    border: 2px solid white;
+}
+#etiqueta{
+    text-align: center;
+    margin-top: 35px;
+}
+#cuerpo select{
+ width: 100%;
+ height:55px ;
+ margin-bottom: 15px;
+border: none;
+}
+.texto{
+    width: 100%;
+ height:55px ;
+ margin-bottom: 15px;
+ border: none;
+}
+.selec{
+    width: 45% !important;
+}
+#selec2{
+    float: right;
+}
+
+#divboton{
+    margin: auto;
+    margin-top: 20px;
+}
+
+#button{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: #ef5466;
+    border-radius: 30px;
+    border: 2px solid #ef5466
+}
+
+.enlaces{
+    text-align: center;
+    
+}
+.enlaces a{
+    text-decoration: none;
+}
+
+#etiquetap{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+/*///////////////////////////////////////////PIE DE PAGINA ///////////////////////////////////////////////////////////////////////////*/
+#lista1{
+    height: 60vh;
+}
+.lista{
+    margin-top: 90px;
+}
+.lista ul{
+    list-style: none;
+    padding: 0;
+    text-align: initial;
+    
+}
+.lista ul li a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 38px;
+}
+.lista h6{
+    margin-bottom: 25px;
+    color: #2692b7;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#selecfooter{
+    float: right;
+    background-color: #32323D;
+    color: #ccc;
+    border: none;
+}
+
+#redes {
+    padding-top: 175px;
+}
+#redes ul{
+    margin-top: 14px;
+    list-style: none;
+    margin-left: -8px;
+    height: 35px;
+ }
+ 
+ #redes ul li{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 8px;
+    border: 2px solid #6E6E79;
+    color: #6E6E79;
+ }
+ #redes ul li a{
+    color: #6E6E79;
+ }
+ .sociales{
+    font-size: 22px;
+    margin-top: 6px;
+ }
+ 
+ #redes img{
+    margin-left: 30px;
+ }

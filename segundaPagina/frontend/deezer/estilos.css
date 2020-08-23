@@ -1,0 +1,367 @@
+#lateral{
+    height: 100vh;
+    border-right: 1px solid gray;
+}
+
+#encabezado {
+    height: 10vh;
+}
+
+#suscribete{
+    background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb);
+    color: white;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    height: 140px;
+    margin-bottom: 50px;
+}
+#suscribete p{
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 18px;
+    margin-bottom: 13px;
+    width: 80%;
+    padding-top: 20px;
+}
+.boton{
+    text-align: center;
+}
+#boton1{
+    width: 100%;
+    border: 1px solid gray;
+    outline: none;
+}
+
+#imagen{
+    margin-top: 10px;
+}
+#buscar{
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+}
+#busc{
+    width: 75%;
+    outline: none;
+    border: none;
+}
+#iconos{
+    float: right;
+}
+#icono1{
+    margin-right: 20px;
+}
+
+.source{
+    background-color: none;
+    color: #191919;
+    font-family: Deezer,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+#v-pills-home-tab{
+    background-color: none !important;
+    color: #191919;
+}
+.iconolateral{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.nav-link:hover {
+    text-decoration: none;
+    color: #EF5466;
+}
+.last{
+    font-size: 12px;
+    font-family: Open Sans,Arial,sans-serif;
+    font-weight: 600;
+    color: var(--text-intermediate);
+    padding-left: 50px;
+}
+
+/* interios*/
+
+#favorito{
+    margin-top: 50px;
+    border-bottom: 2px solid gray;
+    height: 79px;
+}
+#favorito h4{
+    padding-left: 40px;
+}
+#favorito ul{
+    list-style: none;
+    display: inline-block;
+}
+
+#favorito ul li{
+    float: left;
+    padding-bottom: 15px;
+}
+.li{
+    margin-left: 30px;
+}
+
+#lista{
+    height: 40px;
+}
+.li :hover{
+    border-bottom: 2px solid #EF5466 !important;
+}
+.cuerpo{
+   
+}
+.imgfavoritos{
+    border-radius: 150px;
+}
+.nav-pills .nav-link.active{
+    background-color: white;
+    color: black;
+}
+a{
+    color: black;
+}
+.nav-pills .nav-link.active {
+    background-color: white;
+    border-left: 29x;
+    border-left: 2px solid #EF5466;
+    color: #EF5466 !IMPORTANT;
+}
+
+/*///////////////////////////////BIBLIOTECA//////////////////////////////////////////////////////////*/
+.comun{
+    width: 180;
+    height: 92px;
+    
+    margin-top: 20px;
+}
+.estandar{
+    text-align: center; 
+    line-height: 92px;
+    margin: 0;
+
+    color: white; 
+    font-size: 19px; 
+    font-weight: 700;
+    overflow: hidden; 
+    font-family: Deezer,Arial,sans-serif;
+}
+
+.h4{
+    margin-top: 45px;
+}
+
+.imgartista {
+    border-radius: 125px;
+    cursor: pointer;
+}
+#contenedorartista{
+    padding: 25px;
+}
+.contenedormusica{
+    padding: 20px;
+}
+
+#titulo{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+#misartistas{
+    padding: 25px;
+}
+
+#contenedorAgregarArtista{
+    margin: 20px;
+    box-shadow: 1px 1px 1px 1px grey;
+
+}
+
+/*.imagennuevosartistas{
+    height: 182px;
+    border-radius: 130px;
+}*/
+
+.nombreartistas{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.fansartistas{
+    text-align: center;
+}
+
+
+/*////////////////////// PANTALLA GRANDE /////////////////////////////////////////////*/
+@media (min-width: 1126px) {
+    #imagenartista{
+        width: 234px !important;
+    }
+    #contenedoricono {
+        margin-top: 180px !important;
+        position: absolute ;
+        margin-left: 80px !important;
+    }
+    #imgalbums {
+        width: 234px !important;
+    }
+
+    .botonicoalbum {
+        margin-top: 45px;
+    }
+}
+/*////////////////////// PANTALLA MEDIANA ///////////////////////////////////////////////*/
+@media (max-width: 1125px) {
+    .imgartista{
+        width: 182px;
+    }
+}
+
+/*////////////////////// FIN PANTALLA MEDIANA ///////////////////////////////////////////////*/
+
+
+
+
+#contenedoricono{
+    margin-top: 133px;
+    position: absolute;
+    margin-left: 55px;
+}
+
+.botonicono{
+    width: 34px;
+    border-radius: 150px;
+    padding-right: 0px;
+    padding-left: 0px;
+    height: 34px;
+    border: none;
+    outline: none !important;
+   
+}
+#imagenartista{
+    width: 182px;
+    border-radius: 150px;
+    cursor: pointer;
+}
+#iconoheart{
+    margin-left: 10px;
+    color: red;
+}
+
+.contendores{
+    padding: 25px;
+}
+#imgalbums{
+    width: 182px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#contenedoriconoalbum{
+    margin-top: 138px;
+    position: absolute;
+    
+}
+.botonicoalbum{
+    margin-left: 10px;
+}
+
+.contenedortitulo{
+    margin-top: 25px;
+    
+}
+.contenedorcuerpo{
+    padding: 20px;
+    padding-top: 5px;
+}
+#etiqueta{
+    margin-top: 35px;
+}
+
+/*/////////////////////VER ARTISTA ///////////////////////////////////////////////*/
+
+#contendorverimagenartista{
+    padding: 20px;
+    border-radius: 150px;
+}
+#imagenverartista{
+    border-radius: 150px;
+}
+
+#ulartista{
+
+    list-style: none;
+    margin-top: 70px;
+}
+#ulmusica{
+    list-style: none;
+    border-bottom: 1px solid;
+    height: 41px;
+    margin-top: 10px;
+}
+
+#ulmusica li{
+    float: left;
+}
+
+#vercanciones{
+    margin: 20px;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+#contenedorUlMusica{
+    border-bottom: 1px solid;
+    width: 100%;
+    padding: 10px;
+}
+
+.liprincipal{
+    margin-left: 20px;
+}
+.lisecundario{
+    margin-left: 390px;
+}
+#ulmusica button{
+    border: none;
+    outline: none;
+    border-radius: 50px;
+}
+#contenedortitulo{
+    padding: 20px;
+    padding-bottom: 0px;
+ 
+}
+
+.lialbum{
+    float: right !important;
+    margin-right: 40px;
+    margin-left: 0;
+}
+
+
+
+.ulmusica{
+    margin-right: 35px;
+    margin-left: 50px;    
+}
+
+#caratula{
+    margin-bottom: 50px;
+    padding: 25px;
+}
+#caratula img{
+    width: 234px;
+}
+
+#margen{
+    margin-bottom: auto;
+    margin-top: auto;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#uldescripcion{
+    list-style: none;
+    border-bottom: 1px solid;
+    height: 41px;
+    margin-top: 10px;
+}
+

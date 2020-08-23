@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ed1d559547.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+    <nav id="principal" class="navbar navbar-expand-lg navbar-light bg-light">
+      
+        <div id="principalimagen">
+        <a id="imagen" class="navbar-brand" href="#"><img src="img/deezer2.png" alt=""></a>
+        </div>
+        <button id="cambiarcollapse" class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+    
+        </button>
+      
+        <div   class="collapse navbar-collapse collap" id="navbarSupportedContent">
+         
+    
+          <ul id="ulnavegacion" class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link oculto" href="#">Iniciar sesion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link oculto" href="#">Registrarse</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link oculto" href="#">Descargar la aplicacion</a>
+            </li>
+            <li id="primerli" class="nav-item active" >
+              <a id="descargar" class="nav-link" href="#" style="text-align: center;" > Descargar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ofertas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link oculto" href="#">Explorar los canales</a>
+            </li>
+          
+          </ul>
+          
+    
+          <form id="formnavegacion" class="form-inline my-2 my-lg-0">
+            <button id="primerboton"  class="btn my-2 my-sm-0 botonnavegacion" type="submit">Iniciar sesion</button>
+            <button id="segundoboton" class="btn my-2 my-sm-0 botonnavegacion " type="submit">Registrarse</button>
+          </form>
+    
+        
+        </div>
+      </nav>
+
+      <!--CUERPO-->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-8 col-lg-8" style="background-color:#F0F0F0">
+            <div id="cuerpo" class="col-xl-6" style="background-color: #F0F0F0;">
+              <h2>¿Tienes ganas de registrarte?</h2>
+              <div id="divbotones" class="col-xl-8 col-lg-8" >
+                <button id="boton1" class="boton"><span><i class="fab fa-facebook-f"></i></span> Facebook</button>
+                <button id="boton2" class="boton"><span><i class="fab fa-google"></i></span> Google</button>
+              </div>
+              <p id="etiqueta">¿Ya tienes una cuenta Deezer? Iniciar sesión</p>
+              <div class="col-xl-12" style="margin: auto;">
+                
+
+                <input class="texto" type="email" name="" id="correo" placeholder="Correo">
+                <input class="texto" type="text" placeholder="Nombre de usuario" id="nombre">
+                <input class="texto" type="password" placeholder="contraseña" id="password">
+                <div id="error" class="alert alert-danger" style="display: none;"></div>
+                <div>
+                  <select id="select1" class="selec" onchange="select1()">
+                    <option value="">sexo</option>
+                    <option value="">Masculino</option>
+                    <option value="">Femenino</option>
+                  </select>
+                  <select id="select2" class="selec" onchange="select2()">
+                    <option value="">Edad</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                  </select>
+                </div>
+
+                <div id="divboton" class="col-xl-10">
+                  <button id="button" onclick="registrarse()">Registrarse</button>
+                </div>
+                <div class="enlaces" style="margin-top: 25px;"><a href="">Registrarse con una dirección de email</a></div>
+                
+                <p id="etiquetap">Al hacer clic en "Registrarse", aceptas las</p>
+                <div class="enlaces"><a href="">Condiciones generales de uso.</a></div>
+              </div>
+              
+            </div>
+          </div>
+
+
+          <div id="img" class="col-xl-4 col-lg-4"></div>
+        </div>
+      
+
+      </div>
+
+              <!--PIE DE PAGINA-->
+              <div class="container-fluid " style="background-color: #32323D;">
+                <div class="row">
+                  <div class="col-xl-3 col-lg-3">
+                  <div id="redes" class="col-xl-10 col-lg-10">
+                    <a href=""><img src="img/deezer.png" alt=""></a>
+                    <ul>
+                      <li><a href=""><i  class=" fab fa-facebook-f sociales"></i></a></li>
+                      <li><a href=""><i class="fab fa-instagram sociales"></i></a>
+                      <li><a href=""><i class="fab fa-twitter sociales"></i></a></li>
+                      <li><a href=""><i class="fab fa-youtube sociales"></i></a></li>
+                    </ul>
+                  </div>
+                  </div>
+      
+      
+                  <div class="container-fluid col-xl-9 col-lg-9" >
+                    <div class="row">
+                      <div id="lista1" class="lista col-xl-2 col-lg-2">
+                        <ul>
+                          <h6>DEEZER</h6>
+                          <li><a href="">Ofertas</a></li>
+                          <li><a href="">Ventajas</a></li>
+                          <li><a href="">Dispositivos</a></li>
+                          <li><a href="">Ayuda</a></li>
+                          <li><a href="">Quiénes somos</a></li>
+                          <li><a href="">Ofertas de empleo</a></li>
+                        </ul>
+                      </div>
+                    <div class=" lista col-xl-3 col-lg-3">
+                      <ul>
+                        <h6>EXPLORAR</h6>
+                        <li><a href="">Todos los canales</a></li>
+                        <li><a href="">Charts</a></li>
+                        <li><a href="">Lanzamiento más popular</a></li>
+                        <li><a href="">Nuevos lanzamientos</a></li>
+                        <li><a href="">Quédate en casa</a></li>
+                  
+                      </ul>
+                    </div>
+                    <div class="lista col-xl-3 col-lg-3">
+                      <ul>
+                        <h6>¿QUIÉNES SOMOS?</h6>
+                        <li><a href="">Sellos y artistas</a></li>
+                        <li><a href="">Desarrolladores</a></li>
+                        <li><a href="">Prensa</a></li>
+                        
+                  
+                      </ul>
+                    </div>
+                    <div class="lista col-xl-4 col-lg-4" >
+                      <ul>
+                        <h6>LEGAL</h6>
+                        <li><a href="">Aviso legal</a></li>
+                        <li><a href="">Condiciones generales de uso</a></li>
+                        <li><a href="">Política de privacidad</a></li>
+                        <li><a href="">Cookies</a></li>
+                      
+                  
+                      </ul>
+                      <div class="col-xl-9 col-lg-12">
+                        <select name="" id="selecfooter">
+                          
+                          <option value="">Español</option>
+                          <option value="">Español(mx)</option>
+                          <option value="">English(us)</option>
+                          <option value="">English</option>
+                          <option value="">Itiliano</option>
+                        </select>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>  
+  
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>  
+  <script src="controlador.js"></script>          
+      
+</body>
+</html>
+
+
+
+
+
+
+
+

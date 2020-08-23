@@ -196,9 +196,14 @@ function generarterminos() {
 }
 generarterminos();
 
-function pulsar(indice) {
-    console.log("boton funciona", indice)
-    console.log(terminos[indice].termino1)
+
+function nuevapagina() {
+
+    window.location.href = '../segundaPagina/frontend/correo/correo.html' ;
+}
+/*function pulsar(indice) {
+    console.log("boton funciona", indice);
+    console.log(terminos[indice].termino1);
 
     document.getElementById('lista').innerHTML+=
     `
@@ -215,4 +220,4 @@ function pulsar(indice) {
     
     
 }
-pulsar();
+pulsar();*/

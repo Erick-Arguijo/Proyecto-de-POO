@@ -1,0 +1,124 @@
+[
+    {
+        "nombre":"Hits of the moments",
+        "identificador":["destacadas","populares"],
+        "imagen":"../../frontend/playlist/album1.jpg",
+        "canciones":[1,2,6,11,14,16,20]
+    },
+    {
+        "nombre":"Fiesta",
+        "identificador":["albumes","destacadas"],
+        "imagen":"../../frontend/playlist/fiesta.jpg",
+        "canciones":[1,2,6,11,14,16,20]
+    },
+    {
+        "nombre":"Romanticas",
+        "identificador":["destacadas","albumes"],
+        "imagen":"../../frontend/playlist/romanticas.jpg",
+        "canciones":[1,8,7,6,7]
+    },
+    {
+        "nombre":"En Casa",
+        "identificador":["momento","recomendada"],
+        "imagen":"../../frontend/playlist/encasa.jpg",
+        "canciones":[1,2,6,20]
+    },
+    {
+        "nombre":"Deporte",
+        "identificador":["albumes","recomendada"],
+        "imagen":"../../frontend/playlist/deporte.jpg",
+        "canciones":[8,9,4,7]
+    },
+
+    {
+        "nombre":"Hoy es viernes",
+        "imagen":"../../frontend/playlist/hoyesviernes.jpg",
+        "identificador":["populares"],
+        "canciones":[1,2,3,4]
+    },
+    {
+        "nombre":"Exitos totales",
+        "imagen":"../../frontend/playlist/exitostotales.jpg",
+        "identificador":["populares"],
+        "canciones":[1,5,8,9]
+    },
+    {
+        "nombre":"Gim",
+        "imagen":"../../frontend/playlist/fondo2.jpg",
+        "identificador":["recomendada"],
+        "canciones":[1,2,3,4]
+    },
+    {
+        "nombre":"Latina",
+        "imagen":"../../frontend/playlist/latinorevelacion.jpg",
+        "identificador":["populares"],
+        "canciones":[8,2,4]
+    },
+    {
+        "nombre":"The Weenked",
+        "imagen":"../../frontend/playlist/theweekendalbum.jpg",
+        "identificador":["populares"],
+        "canciones":[8,2,4]
+    },
+    {
+        "nombre":"hip-hop/rap",
+        "identificador":["genero" , "albumes", "momento"],
+        "imagen":"../../frontend/playlist/fondo2.jpg",
+        "canciones":[]
+    },
+    {
+        "nombre":"Afrobeat",
+        "imagen":"../../frontend/playlist/fondo3.jpg",
+        "identificador":["genero","albumes"],
+        "canciones":[]
+    },
+    {
+        "nombre":"Synthwave",
+        "imagen":"../../frontend/playlist/fondo4.jpg",
+        "identificador":["genero","momento"],
+        "canciones":[]
+    },
+    {
+        "nombre":"R&B/soul",
+        "imagen":"../../frontend/playlist/fondo5.jpg",
+        "identificador":["genero","destacadas"],
+        "canciones":[]
+    },
+    {
+        "nombre":"R&B contemporáneo",
+        "imagen":"../../frontend/playlist/fondo7.jpg",
+        "identificador":["genero"],
+        "canciones":[]
+    },
+    {
+        "nombre":"Electro-funk",
+        "imagen":"../../frontend/playlist/fondo5.jpg",
+        "identificador":["genero","recomendada"],
+        "canciones":[]
+    },
+    {
+        "nombre":"Pop",
+        "imagen":"../../frontend/playlist/fondo1.jpg",
+        "identificador":["genero", "momento"],
+        "canciones":[]
+    },
+    {
+        "nombre":"Regional mexicana",
+        "imagen":"../../frontend/playlist/fondo2.jpg",
+        "identificador":["genero"],
+        "canciones":[]
+    },
+    {
+        "nombre":"Reguetón",
+        "imagen":"../../frontend/playlist/fondo3.jpg",
+        "identificador":["genero"],
+        "canciones":[]
+    },
+    {
+        "nombre":"Bachata",
+        "imagen":"../../frontend/playlist/fondo4.jpg",
+        "identificador":["genero", "destacadas"],
+        "canciones":[]
+    }
+    
+]
